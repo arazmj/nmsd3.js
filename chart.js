@@ -1,4 +1,4 @@
-var jsonUri = 'https://gist.githubusercontent.com/arazmj/1f454eba7972068b0db767e88b966070/raw/cb675c0bb7603e1a8acb779d5456169fc2c95351/gistfile1.txt';
+var jsonUri = 'https://gist.githubusercontent.com/arazmj/2136e077ed1b12825792b1fff06729e8/raw/d9c65e92ec1ab19c68eaffb91749b4ae92892645/graph.json';
 d3.json(jsonUri).then(function(data) {
     update(data);
 });
